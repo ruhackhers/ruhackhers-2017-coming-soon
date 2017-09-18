@@ -205,76 +205,69 @@ hr.star-primary-header:after{
 	background-color: #ffffff;
 }
 
-#sponsors-wrapper{
-	margin: 0 auto;
-	text-align: center;
-}
 
-#mlh{
-	height: 150px;
-	width: auto;
-	margin: 10px;
-}
+/*specific sponsor ids*/
 
-#microsoft {
+
+#special-thanks img{
+	width: 120px;
 	height: auto;
-	width: 400px;
-	margin: 10px;
-	display: inline-block;
+	margin: 30px;
+}
+
+#drc {
+	width: 250px;
+	height: auto;
 
 }
 
-#iCIMS{
-	height: 165px;
-	width: auto;
-	margin: 10px 10px 10px -25px;
-	display: inline-block;
-
-
+#mlh {
+	width: 175px;
+	height: auto;
+	margin: 50px;
 }
 
-#ups {
-	height: 165px;
-	width: auto;
-	margin: 30px 10px 10px 10px;
-	display: inline-block;
+#lockeed, #jpmorgan, #vanguard{
+	width: 565px;
+	height: auto;
+	margin: 25px;
 }
 
 #verizon{
+	width: 350px;
 	height: auto;
-	width: 365px;
-	margin: 10px;
-	display: inline-block;
+	margin: 45px;
 }
 
-#lockheedmartin{
-	margin: 10px 10px 7px 10px;	
-}
-
-#att{
-	height: 260px;
-	width: auto;
-	margin: -40px 10px 10px 10px;
-}
-
-#bloomberg{
+#ups{
+	width: 200px;
 	height: auto;
-	width: 300px;
-	margin: -40px 10px 5px 80px;
+	margin: 45px;
 }
 
-.bronze{
-	height: 175px;
-	width: auto;
-	margin: 30px 50px;
-}
-
-#colgate-palmolive{
+#icims, #capital-one{
+	width: 268px;
 	height: auto;
+	margin: 25px;
+
+}
+
+#facebook, #bloomberg, #prudential{
+	width: 200px;
+	height: auto;
+	margin: 40px;
+}
+
+#knowledgent{
 	width: 250px;
-	margin-bottom: -20px;
+	height: auto;
+	margin: 40px;
 }
 
+#special-thanks img{
+	width: 120px;
+	height: auto;
+}
 
 
 footer{
@@ -356,6 +349,12 @@ list-inline > li {
 
 @media (min-width: 651px) and (max-width: 768px) {
 
+
+	#diano{
+		height: 300px; 
+		width:auto;
+	}
+
 	#faq .faq-box{
     	padding: 2.25rem;
     	margin: 0 auto;
@@ -397,85 +396,6 @@ h4{
 	font-size: 1.0em;
 }
 
-#diano{
-	height: auto; 
-	width:320px;
-}
-
-
-#faq {
-	background-color: #9783c0;
-	color: #f9f9f9;
-	margin-top: 8rem;
-	padding-bottom: 100px;
-}
-
-#mlh{
-	height: 125px;
-	width: auto;
-	margin-bottom: 20px;
-}
-
-
-#microsoft {
-	height: auto;
-	width: 350px;
-	margin: 0 auto;
-}
-
-#iCIMS{
-	height: 165px;
-	width: auto;
-	margin: 10px 10px 10px -25px;
-	display: inline-block;
-
-
-}
-
-#ups {
-	height: 165px;
-	width: auto;
-	margin: 30px 10px 10px 10px;
-	display: inline-block;
-
-
-}
-
-#verizon{
-	height: auto;
-	width: 300px;
-	margin: 10px;
-	display: inline-block;
-}
-
-#lockheedmartin{
-	width: 300px;
-	height: auto;	
-}
-
-#att{
-	height: 170px;
-	width: auto;
-	margin-top: -20px
-
-}
-
-#bloomberg{
-	height: auto;
-	width: 250px;
-	margin: 0 0 20px 0;
-}
-
-.bronze{
-	height: 150px;
-	width: auto;
-	margin: 30px 50px;
-}
-
-#colgate-palmolive{
-	height: auto;
-	width: 170px;
-}
 
 
 #faq .row .half-left, #faq .row .half-right{
@@ -515,6 +435,131 @@ h4{
 
 
 }
+
+
+@media (min-width: 500px) and (max-width: 956px) {
+
+  
+  	#lockeed, #jpmorgan, #vanguard{
+		width: 400px;
+		height: auto;
+		margin: 0 auto;
+	}
+	
+	#verizon{
+		width: 245px;
+		height: auto;
+		margin: 25px;
+	}
+
+	#ups{
+		width: 150px;
+		height: auto;
+		margin: 25px;
+	}
+	
+	#icims, #capital-one{
+		width: 200px;
+		height: auto;
+		margin: 25px;
+	}
+
+	#facebook, #bloomberg, #prudential{
+		width: 175px;
+		height: auto;
+		margin: 20px;
+	}
+	
+	#knowledgent{
+		width: 225px;
+		height: auto;
+		margin: 40px;
+	}
+
+
+}
+
+
+@media (min-width: 320px) and (max-width: 499px)  {
+
+
+
+	#diano{
+		height: 275px; 
+		width:auto;
+	}
+	
+	
+	#drc {
+		width: 150px;
+		height: auto;
+
+	}
+
+	#mlh {
+		width: 150px;
+		height: auto;
+	}
+
+	
+	#lockeed, #jpmorgan, #vanguard{
+		width: 275px;
+		height: auto;
+		margin: 25px auto;
+	}
+	
+	#verizon{
+		width: 225px;
+		height: auto;
+		margin: 25px;
+	}
+
+	#ups{
+		width: 125px;
+		height: auto;
+		margin: 25px;
+	}
+	
+	
+	#icims, #capital-one{
+		width: 175px;
+		height: auto;
+		margin: 25px;
+	}
+
+	#facebook, #bloomberg, #prudential{
+		width: 150px;
+		height: auto;
+		margin: 30px;
+	}
+	
+	#knowledgent{
+		width: 200px;
+		height: auto;
+		margin: 40px;
+	}
+
+
+
+	#team .team-wrapper{
+		width: 100%;
+		
+	}
+	
+	#filler-1, #filler-2 {
+		display: none;
+	}
+	
+	#get-involved .hacker-reg, #get-involved .help-reg{
+	
+		  display: block;
+	}
+
+
+
+
+}
+
 
 
 
